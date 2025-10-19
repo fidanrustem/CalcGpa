@@ -10,7 +10,7 @@ public class CalcGPA {
         double totalcredits = 0;
         double totalweight = 0;
         for (int i = 1; i <= lessons; i++) {
-            InputLessons input=new InputLessons();
+            Input input=new Input();
             input.read(i,"Fenn ");
             double credits=input.read("Fennin crediti: ");
             double grade = input.read("Fennden alinan qiymet:");
